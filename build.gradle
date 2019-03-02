@@ -1,0 +1,28 @@
+plugins {
+    id 'java'
+}
+
+group 'PigeonWorld'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+jar {
+    baseName = "PigeonWorldPlugin"
+    version = 1.0
+
+    manifest {
+        attributes 'Main-Class': 'PigeonWorld.Main'
+    }
+}
+
+repositories {
+    mavenCentral()
+
+    flatDir { dir "libs" }
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile name: 'spigot'
+}

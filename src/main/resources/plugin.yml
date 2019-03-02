@@ -1,0 +1,68 @@
+name: PigeonWorldPlugin
+version: 1.0
+author: Donald_Trumpyyy
+main: PigeonWorld.Main
+commands:
+  test:
+    permission: test.admin
+    description: test command
+  gamemode:
+    aliases: gm
+    permission: gamemode.admin
+    description: gamemode command
+  broadcast:
+    aliases: bc
+    permission: broadcast.admin
+    description: broadcast command
+  ban:
+    permission: ban.admin
+    description: ban command
+  unban:
+    permission: unban.admin
+    description: unban command
+  kick:
+    permission: kick.admin
+    description: kick command
+  vanish:
+    aliases: v
+    permission: vanish.admin
+    description: vanish command
+  day:
+    permission: day.admin
+    description: day command
+  night:
+    permission: night.admin
+    description: night command
+  freeze:
+    permission: freeze.admin
+    description: frezze command
+  unfreeze:
+    permission: unfreeze.admin
+    description: unfreeze command
+  invsee:
+    permission: invsee.admin
+    description: invsee command
+  fly:
+    permission: fly.admin
+    description: fly command
+  mod:
+    permission: mod.admin
+    description: mod command
+  heal:
+    permission: heal.player
+    description: heal command
+  feed:
+    permission: feed.player
+    description: feed command
+  ping:
+    description: ping command
+  sethome:
+    description: sethome command
+  delhome:
+    description: delhome command
+  home:
+    description: home command
+  money:
+    description: money command
+  licence:
+    description: licence command
